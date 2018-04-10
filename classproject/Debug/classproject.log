@@ -1,0 +1,11 @@
+﻿  main.cpp
+  Source.cpp
+c:\users\user\source\repos\classproject\classproject\source.cpp(52): error C3867: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::length': non-standard syntax; use '&' to create a pointer to member
+c:\users\user\source\repos\classproject\classproject\source.cpp(52): error C2446: '<': no conversion from 'unsigned int (__thiscall std::basic_string<char,std::char_traits<char>,std::allocator<char>>::* )(void) noexcept const' to 'int'
+  c:\users\user\source\repos\classproject\classproject\source.cpp(52): note: There is no context in which this conversion is possible
+c:\users\user\source\repos\classproject\classproject\source.cpp(57): error C2086: 'std::string convert': redefinition
+  c:\users\user\source\repos\classproject\classproject\source.cpp(49): note: see declaration of 'convert'
+c:\users\user\source\repos\classproject\classproject\source.cpp(60): error C2086: 'std::string digit': redefinition
+  c:\users\user\source\repos\classproject\classproject\source.cpp(29): note: see declaration of 'digit'
+c:\users\user\source\repos\classproject\classproject\source.cpp(61): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
