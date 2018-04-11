@@ -6,6 +6,7 @@ using namespace std;
 void main() {
 	initialize start;
 	string choice;
+	created:
 	cout << "Do you have an account?(Y/N) : ";
 	cin >> choice;
 	/*while (start.checkInput(choice)!=true) {
@@ -14,13 +15,16 @@ void main() {
 		cin >> choice;
 	}*/
 	if (choice == "Y") {
-		start.login();
+		if (start.login() == true) {
+			
+		}
 		
 			
 		
 	}
 	else {
 		start.regis();
+		goto created;
 	}
 
 }
